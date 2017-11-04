@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1509800059 source:c:\work\timetable\room.cpp
+	"Room.h"
+
+1509800015 c:\work\timetable\room.h
+
+1509808588 source:c:\work\timetable\main.cpp
+	<iostream>
+	"Timeslot.h"
+
+1509800655 source:c:\work\timetable\lesson.cpp
+	"Lesson.h"
+
+1509808961 c:\work\timetable\lesson.h
+	"Room.h"
+	"Timeslot.h"
+
+1509808375 source:c:\work\timetable\time.cpp
+	"Time.h"
+	<cctype>
+
+1509807351 c:\work\timetable\time.h
+	<string>
+
+1509808611 source:c:\work\timetable\timeslot.cpp
+	"Timeslot.h"
+
+1509808443 c:\work\timetable\timeslot.h
+	"Time.h"
+
