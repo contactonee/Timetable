@@ -8,6 +8,21 @@ Timeslot::Timeslot(Time *begin, Time *end) {
     Timeslot::end = end;
 }
 
+Timeslot::Timeslot(int day, int start_hours, int finish_hours) {
+    begin = new Time(day, start_hours);
+    end = new Time(day, finish_hours);
+}
+
+Timeslot::Timeslot(int day,
+        int start_hours,
+        int start_minutes,
+        int finish_hours,
+        int finish_minutes) {
+
+    begin = new Time(day, start_hours, start_minutes);
+    end = new Time(day, finish_hours, finish_minutes);
+}
+
 
 bool Timeslot::overlaps(Timeslot *a, Timeslot *b) {
 
@@ -21,4 +36,11 @@ bool Timeslot::overlaps(Timeslot *a, Timeslot *b) {
         return false;
     }
 
+}
+
+Time* Timeslot::getBegin() {
+    return begin;
+}
+Time* Timeslot::getEnd() {
+    return end;
 }

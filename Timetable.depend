@@ -1,30 +1,85 @@
 # depslib dependency file v1.0
-1509800059 source:c:\work\timetable\room.cpp
+1510498123 source:c:\work\timetable\room.cpp
 	"Room.h"
-
-1509800015 c:\work\timetable\room.h
-
-1509808588 source:c:\work\timetable\main.cpp
 	<iostream>
-	"Timeslot.h"
 
-1509800655 source:c:\work\timetable\lesson.cpp
+1510482008 c:\work\timetable\room.h
+	<string>
+	"Reservable.h"
+
+1510498538 source:c:\work\timetable\main.cpp
+	<iostream>
+	<cstdio>
+	<vector>
+	<algorithm>
+	"Faculty.h"
+	"Course.h"
+	"Room.h"
+	"Group.h"
 	"Lesson.h"
 
-1509808961 c:\work\timetable\lesson.h
+1510492708 source:c:\work\timetable\lesson.cpp
+	"Lesson.h"
+	<iostream>
+	"Time.h"
+
+1510485342 c:\work\timetable\lesson.h
 	"Room.h"
 	"Timeslot.h"
+	"Course.h"
+	"Group.h"
 
-1509808375 source:c:\work\timetable\time.cpp
+1510467333 source:c:\work\timetable\time.cpp
 	"Time.h"
 	<cctype>
 
-1509807351 c:\work\timetable\time.h
+1510467813 c:\work\timetable\time.h
 	<string>
 
-1509808611 source:c:\work\timetable\timeslot.cpp
+1510466656 source:c:\work\timetable\timeslot.cpp
 	"Timeslot.h"
 
-1509808443 c:\work\timetable\timeslot.h
+1510491969 c:\work\timetable\timeslot.h
 	"Time.h"
+
+1509816079 source:c:\work\timetable\showable.cpp
+	"Showable.h"
+	"Time.h"
+	<cstdio>
+
+1509816573 c:\work\timetable\showable.h
+	"Lesson.h"
+	<vector>
+
+1510477868 source:c:\work\timetable\course.cpp
+	"Course.h"
+	<iostream>
+	<string>
+
+1510477504 c:\work\timetable\course.h
+	<string>
+	<vector>
+	"Group.h"
+	"Faculty.h"
+
+1510496348 source:c:\work\timetable\faculty.cpp
+	"Faculty.h"
+
+1510496821 c:\work\timetable\faculty.h
+	<string>
+	"Reservable.h"
+
+1510498109 c:\work\timetable\group.h
+	<string>
+	"Reservable.h"
+
+1510498126 source:c:\work\timetable\group.cpp
+	"Group.h"
+
+1510491646 c:\work\timetable\reservable.h
+	<vector>
+	"Timeslot.h"
+
+1510491902 source:c:\work\timetable\reservable.cpp
+	"Reservable.h"
 

@@ -8,7 +8,10 @@ Time::Time(int day, int hours, int minutes, int seconds) {
     timestamp = seconds + 60 * (minutes + 60 * (hours + 24 * (day - 1)));
 }
 Time::Time(std::string day, int hours, int minutes, int seconds) {
-    timestamp = seconds + 60 * (minutes + 60 * (hours + 24 * (dayToInt(day) - 1)));
+    timestamp = seconds
+        + 60 * (minutes
+        + 60 * (hours
+        + 24 * (Time::dayStringToInt(day) - 1)));
 }
 Time::getDay() {
     return (timestamp / 60 / 60 / 24) + 1;
@@ -25,7 +28,7 @@ Time::getSeconds() {
 Time::getTimestamp() {
     return timestamp;
 }
-Time::dayToInt(std::string day) {
+int Time::dayStringToInt(std::string day) {
     char ch1 = (char)tolower((int)day[0]);
     char ch2 = (char)tolower((int)day[1]);
 
