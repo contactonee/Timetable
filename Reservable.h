@@ -2,21 +2,26 @@
 #define RESERVABLE_H
 
 #include <vector>
-
 #include "Timeslot.h"
 
 class Reservable {
 public:
     Reservable();
-    Timeslot* next();
-    void reserve(Timeslot* slot);
 
-    bool empty();
+    void reserve(Timeslot* slot);
+    void reserve(int k);
+
+    int getAvailable();
 
     std::vector < Timeslot* > slots;
-    int reserved = 0;
+
+    void InitSlots();
 
 private:
+    int Reserved = 0;
+    int Total = 0;
+
+
 };
 
 

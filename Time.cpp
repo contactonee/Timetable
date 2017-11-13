@@ -2,31 +2,35 @@
 #include <cctype>
 
 Time::Time(int timestamp) {
-    Time::timestamp = timestamp;
+    Timestamp = timestamp;
 }
+
 Time::Time(int day, int hours, int minutes, int seconds) {
-    timestamp = seconds + 60 * (minutes + 60 * (hours + 24 * (day - 1)));
+    Timestamp = seconds
+        + 60 * (minutes
+        + 60 * (hours
+        + 24 * (day - 1)));
 }
 Time::Time(std::string day, int hours, int minutes, int seconds) {
-    timestamp = seconds
+    Timestamp = seconds
         + 60 * (minutes
         + 60 * (hours
         + 24 * (Time::dayStringToInt(day) - 1)));
 }
-Time::getDay() {
-    return (timestamp / 60 / 60 / 24) + 1;
+Time::day() {
+    return (Timestamp / 60 / 60 / 24) + 1;
 }
-Time::getHours() {
-    return (timestamp / 60 / 60) % 24;
+Time::hours() {
+    return (Timestamp / 60 / 60) % 24;
 }
-Time::getMinutes() {
-    return (timestamp / 60) % 60;
+Time::minutes() {
+    return (Timestamp / 60) % 60;
 }
-Time::getSeconds() {
-    return timestamp % 60;
+Time::seconds() {
+    return Timestamp % 60;
 }
-Time::getTimestamp() {
-    return timestamp;
+Time::timestamp() {
+    return Timestamp;
 }
 int Time::dayStringToInt(std::string day) {
     char ch1 = (char)tolower((int)day[0]);

@@ -1,14 +1,31 @@
 #include "Group.h"
 
-Group::Group(std::string name, int size) {
-    Group::name = name;
-    Group::size = size;
+Group::Group(std::string name, int size, Group* parent) {
+    Name = name;
+    Size = size;
+    Parent = parent;
 
-    for(int i = 1; i <= 5; i++) {
+    InitSlots();
 
-        slots.push_back(new Timeslot(i, 9, 11));
-        slots.push_back(new Timeslot(i, 11, 13));
-        slots.push_back(new Timeslot(i, 14, 16));
-        slots.push_back(new Timeslot(i, 16, 18));
+}
+
+std::string Group::name() {
+    return Name;
+}
+
+int Group::size() {
+    return Size;
+}
+
+void Group::reserve(int k) {
+    reserve(this, k);
+}
+
+void Group::reserve(Group* group, int k) {
+
+    if(group != NULL) {
+        group->slots[k]->available = 0;
+
     }
+
 }
