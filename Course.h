@@ -6,31 +6,33 @@
 
 #include "Group.h"
 #include "Faculty.h"
+#include "Student.h"
 
 class Course {
 
 public:
-    Course(std::string title,
+    Course(std::string name,
         int lectures = 0,
         int tutorials = 0,
         int labs = 0,
         int complabs = 0);
 
-    int enrolled = 0;
+    int L, T, Lb, CLb;
 
     void assignFaculty(Faculty* prof);
-    Faculty* getFaculty();
+    Faculty* faculty();
 
-    std::string getTitle();
+    std::string name();
 
     void enrollGroup(Group* group);
-    std::vector < Group* > groups, L_groups, T_groups, CLb_groups, Lb_groups;
+    std::vector < Group* > groups;
+    std::vector < Student* > students;
 
-    void evaluateSubgroups();
+    void reg();
 
 private:
-    Faculty* faculty;
-    std::string title;
+    Faculty* prof;
+    std::string Name;
 };
 
 #endif // COURSE_H

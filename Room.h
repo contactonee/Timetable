@@ -7,18 +7,18 @@
 
 class Room : public Reservable {
 public:
-    Room(std::string title,
+    Room(std::string name,
         int size,
         bool laboratory = 0,
         bool computers = 0);
 
-    std::string getTitle();
-    int getSize();
+    std::string name();
+    int size();
     bool compLab;
     bool lab;
 private:
-    std::string title;
-    int size;
+    std::string Name;
+    int Size;
 };
 
 #endif

@@ -1,25 +1,23 @@
 #include "Room.h"
 #include <iostream>
 
-Room::Room(std::string title,
+Room::Room(std::string name,
         int size,
         bool laboratory,
         bool computers) {
-    Room::title = title;
-    Room::size = size;
+
+    Name = name;
+    Size = size;
+
     compLab = computers;
     lab = laboratory;
-    for(int i = 1; i <= 5; i++) {
 
-        slots.push_back(new Timeslot(i, 9, 11));
-        slots.push_back(new Timeslot(i, 11, 13));
-        slots.push_back(new Timeslot(i, 14, 16));
-        slots.push_back(new Timeslot(i, 16, 18));
-    }
+    InitSlots();
+
 }
-std::string Room::getTitle() {
-    return title;
+std::string Room::name() {
+    return Name;
 }
-int Room::getSize() {
-    return size;
+int Room::size() {
+    return Size;
 }

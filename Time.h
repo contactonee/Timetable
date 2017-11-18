@@ -5,7 +5,8 @@
 
 class Time {
 public:
-    Time(int timestamp = 0);
+    Time(int timestamp);
+
     Time(int day,
         int hours,
         int minutes = 0,
@@ -16,17 +17,16 @@ public:
         int minutes = 0,
         int seconds = 0);
 
-    int getDay();
-    int getHours();
-    int getMinutes();
-    int getSeconds();
-    int getTimestamp();
+    int day();
+    int hours();
+    int minutes();
+    int seconds();
+    int timestamp();
 
     static int dayStringToInt(std::string day);
 
-
 private:
-    int timestamp = 0;
+    int Timestamp = 0;
 
 };
 

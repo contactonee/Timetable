@@ -3,23 +3,26 @@
 Reservable::Reservable() {}
 
 
-Timeslot* Reservable::next() {
-    for(int i = 0; i < slots.size(); i++) {
-        if(slots[i] != NULL && slots[i]->available) {
-            return slots[i];
-        }
-    }
-    return NULL;
+void Reservable::reserve(Timeslot* slot) {
+    slot->available = false;
+    Reserved++;
 }
 
-void Reservable::reserve(Timeslot* slot) {
-    for(int i = 0; i < slots.size(); i++) {
-        if(slots[i] != NULL && slots[i]->getBegin()->getTimestamp() == slot->getBegin()->getTimestamp()) {
-            slots[i]->available = 0;
-            reserved++;
-        }
-    }
+void Reservable::reserve(int k) {
+    slots[k]->available = false;
+    Reserved++;
 }
-bool Reservable::empty() {
-    return reserved >= 20;
+
+int Reservable::getAvailable() {
+    return Total - Reserved;
+}
+
+void Reservable::InitSlots() {
+    Total = 20;
+    for(int i = 1; i <= 5; i++) {
+        slots.push_back(new Timeslot(i, 9, 0, 10, 50));
+        slots.push_back(new Timeslot(i, 11, 0, 12, 50));
+        slots.push_back(new Timeslot(i, 14, 0, 15, 50));
+        slots.push_back(new Timeslot(i, 16, 0, 17, 50));
+    }
 }

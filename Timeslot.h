@@ -5,7 +5,7 @@
 
 class Timeslot {
 public:
-    Timeslot(Time *begin, Time *end);
+    Timeslot(Time begin, Time end);
     Timeslot(int day, int start_hours, int finish_hours);
     Timeslot(int day,
         int start_hours,
@@ -13,16 +13,15 @@ public:
         int finish_hours,
         int finish_minutes);
 
-    static bool overlaps(Timeslot *a, Timeslot *b);
-    Time* getBegin();
-    Time* getEnd();
+    Time begin();
+    Time end();
 
     bool available = true;
 
 
 private:
-    Time *begin;
-    Time *end;
+    Time *Begin;
+    Time *End;
 };
 
 #endif

@@ -2,14 +2,23 @@
 #define GROUP_H
 
 #include <string>
+#include <vector>
 
-#include "Reservable.h"
+#include "Student.h"
 
-class Group : public Reservable {
+
+class Group {
 public:
     Group(std::string name, int size);
-    std::string name;
-    int size;
+
+    std::string name();
+    int size();
+
+    std::vector < Student* > students;
+
+private:
+    std::string Name;
+    int Size;
 
 };
 

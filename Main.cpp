@@ -2,132 +2,270 @@
 #include <cstdio>
 #include <vector>
 #include <algorithm>
+#include <cstdio>
+#include <fstream>
+#include <map>
 
 
+#include "Group.h"
 #include "Faculty.h"
 #include "Course.h"
 #include "Room.h"
-#include "Group.h"
-#include "Lesson.h"
 
 
-
-int main() {
-
-    std::vector < Course* > courses;
-
-    std::vector < Group* > groups;
-
-    groups.push_back(new Group("EEEY1", 60));
-    groups.push_back(new Group("MEY1", 60));
-    groups.push_back(new Group("CHEY1", 60));
-    groups.push_back(new Group("CEY1", 60));
-
-    std::vector < Lesson* > timetable;
-
-    std::vector < Room* > room;
-    room.push_back(new Room("Orange Hall", 240));
-    room.push_back(new Room("6.552", 60, 0, 1));
-    room.push_back(new Room("3.221", 60));
-    room.push_back(new Room("3.222", 5, 1, 0));
+std::vector < Group* > groups;
+std::vector < Course* > courses;
+std::vector < Room* > rooms;
+std::map < std::string, Course* > courseMap;
+std::string days[] = {"", "Mon", "Tue", "Wed", "Thu", "Fri"};
 
 
-    // Sort by type (lectures only, complab, lab, both) and then by capacity
-    std::sort(room.begin(), room.end(), [](Room* a, Room* b) {
-        if(a->compLab + 2 * a->lab < b->compLab + 2 * b->lab) {
+bool roomsCmp(Room* a, Room* b) {
+
+    if(2 * a->lab + a->compLab < 2 * b->lab + b->compLab) {
+        return 1;
+    }
+    else if(2 * a->lab + a->compLab == 2 * b->lab + b->compLab) {
+        if(a->size() < b->size()) {
             return 1;
-        }
-        else if(2 * a->compLab + a->lab == 2 * b->compLab + b->lab) {
-            if(a->getSize() < b->getSize()) {
-                return 1;
-            }
-            else {
-                return 0;
-            }
         }
         else {
             return 0;
         }
-    });
+    }
+    else {
+        return 0;
+    }
+}
 
+void reg(Course* c, std::string type, int n) {
 
-    Course *c = new Course("Materials", 1, 5);
-    c->assignFaculty(new Faculty("Asma Perveen"));
-
-    for(int i = 0; i < groups.size(); i++) {
-        c->enrollGroup(groups[i]);
+    if(n == 0) {
+        return;
     }
 
-    c->evaluateSubgroups();
-
-    courses.push_back(c);
-
-    c = new Course("Mechanics", 1, 5);
-    c->assignFaculty(new Faculty("Anatoli Vakhguelt"));
-
-    for(int i = 0; i < groups.size(); i++) {
-        c->enrollGroup(groups[i]);
+    // Lab
+    bool lab = 0;
+    if(type.size() == 3) {
+        lab = 1;
     }
-    c->evaluateSubgroups();
-    courses.push_back(c);
+
+    // CompLab
+    bool comp = 0;
+    if(type[0] == 'C') {
+        comp = 1;
+    }
+
+    int gsz = c->students.size() / n;
+    for(int i = 1, l = 0, r = gsz - 1; i <= n; i++, l +=  gsz, r += gsz) {
 
 
-    Room* candidate;
+        Room* cand = NULL;
+        bool done = 0;
+        for(int j = 0; j < rooms.size() && !done; j++) {
+            if(rooms[j]->getAvailable() > 0
+                    && rooms[j]->size() >= gsz
+                    && rooms[j]->compLab >= comp
+                    && rooms[j]->lab >= lab) {
 
+                cand = rooms[j];
 
-    for(int ij = 0; ij < courses.size(); ij++) {
-        c = courses[ij];
-        for(int i = 0; i < c->L_groups.size(); i++) {
-            candidate = NULL;
-            bool f = 0;
-            for(int j = 0; j < room.size() && !f; j++) {
-                if(room[j]->getSize() >= c->L_groups[i]->size && !room[j]->empty()) {
-                    candidate = room[j];
-                    for(int k = 0; k < 20 && !f; k++) {
-                        if(candidate->slots[k]->available && c->getFaculty()->slots[k]->available && c->L_groups[i]->slots[k]->available) {
-                            Lesson *l = new Lesson(c,
-                                c->L_groups[i],
-                                candidate,
-                                candidate->slots[k]
-                            );
-                            candidate->reserve(candidate->slots[k]);
-                            c->getFaculty()->reserve(c->getFaculty()->slots[k]);
-                            c->L_groups[i]->reserve(c->L_groups[i]->slots[k]);
-                            timetable.push_back(l);
-                            f = 1;
+                for(int k = 0; k < 20 && !done; k++) {
+
+                    bool studentsAvailable = 1;
+                    for(int p = l; p <= r; p++) {
+                        if(!c->students[p]->slots[k]->available){
+                            studentsAvailable = 0;
+                            break;
                         }
+                    }
+
+                    if(cand->slots[k]->available
+                            && c->faculty()->slots[k]->available
+                            && studentsAvailable) {
+
+                        cand->reserve(k);
+                        c->faculty()->reserve(k);
+                        for(int p = l; p <= r; p++) {
+                            c->students[p]->reserve(k);
+                        }
+
+                        Time t1 = cand->slots[k]->begin();
+                        Time t2 = cand->slots[k]->end();
+                        std::printf("%s %s\n%s %02d:%02d - %02d:%02d\nGroup of IDs: %d...%d\nVenue: %s\n\n\n",
+                            c->name().c_str(),
+                            type.c_str(),
+                            days[t1.day()].c_str(),
+                            t1.hours(),
+                            t1.minutes(),
+                            t2.hours(),
+                            t2.minutes(),
+                            c->students[l]->id,
+                            c->students[r]->id,
+                            cand->name().c_str());
+                        done = 1;
                     }
                 }
             }
         }
+    }
+}
 
 
-        for(int i = 0; i < c->T_groups.size(); i++) {
-            candidate = NULL;
-            bool f = 0;
-            for(int j = 0; j < room.size() && !f; j++) {
-                if(room[j]->getSize() >= c->T_groups[i]->size && !room[j]->empty()) {
-                    candidate = room[j];
-                    for(int k = 0; k < 20 && !f; k++) {
-                        if(candidate->slots[k]->available && c->getFaculty()->slots[k]->available && c->T_groups[i]->slots[k]->available) {
-                            Lesson *l = new Lesson(c,
-                                c->T_groups[i],
-                                candidate,
-                                candidate->slots[k]
-                            );
-                            candidate->reserve(candidate->slots[k]);
-                            c->getFaculty()->reserve(c->getFaculty()->slots[k]);
-                            c->T_groups[i]->reserve(c->T_groups[i]->slots[k]);
-                            timetable.push_back(l);
-                            f = 1;
-                        }
-                    }
-                }
+int main() {
+
+    freopen("output.txt", "w", stdout);
+
+    std::ifstream fin;
+    int n;
+    char input[256];
+
+
+    fin.open("rooms.txt", std::ifstream::in);
+    fin >> n;
+    fin.getline(input, 256);
+
+    while(rooms.size() < n) {
+
+        fin.getline(input, 256);
+        while(fin.gcount() <= 1) {
+            fin.getline(input, 256);
+        }
+
+        int i = 0;
+
+        std::string name = "";
+        int sz = 0;
+        bool complab = 0, lab = 0;
+
+
+        // Fill the name
+        for(i = 0; input[i] != ','; i++) {
+            name += input[i];
+        }
+
+        // Skip comma and spaces
+        for(++i; input[i] == ' '; i++);
+
+        // Fill the size
+        for(; input[i] >= '0' && input[i] <= '9'; i++) {
+            sz *= 10;
+            sz += input[i] - '0';
+        }
+
+        // Find options such as CompLab or Lab
+        for(; i < fin.gcount() - 1; i++) {
+            if((input[i] == 'c' || input[i] == 'C') && (input[i - 1] == ',' || input[i - 1] == ' ')) {
+                complab = 1;
+            }
+            if((input[i] == 'l' || input[i] == 'L') && (input[i - 1] == ',' || input[i - 1] == ' ')) {
+                lab = 1;
             }
         }
+
+        // Push new room
+        rooms.push_back(new Room(name, sz, lab, complab));
+    }
+    fin.close();
+
+    std::sort(rooms.begin(), rooms.end(), roomsCmp);
+
+
+    fin.open("courses.txt", std::ifstream::in);
+    fin >> n;
+    fin.getline(input, 256);
+
+    while(courses.size() < n) {
+
+        fin.getline(input, 256);
+        while(fin.gcount() <= 1) {
+            fin.getline(input, 256);
+        }
+        int i = 0;
+
+        // Fill the course name
+        std::string name = "";
+        for(i = 0; i < fin.gcount() - 1; i++){
+            name += input[i];
+        }
+
+        // Fill the faculty name
+        fin.getline(input, 256);
+        std::string prof = "";
+        for(i = 0; i < fin.gcount() - 1; i++){
+            prof += input[i];
+        }
+
+        // Parse course groups
+        int L = 0, T = 0, Lb = 0, CLb = 0;
+        fin.getline(input, 256);
+        for(i = 1; i < fin.gcount() - 1; i++) {
+            if(input[i] == 'L') {
+                if(input[i + 1] == 'b') {
+                    if(input[i - 1] == 'C') {
+                        CLb = input[i - 2] - '0';
+                    }
+                    else {
+                        Lb = input[i - 1] - '0';
+                    }
+                }
+                else {
+                    L = input[i - 1] - '0';
+                }
+            }
+            if(input[i] == 'T') {
+                T = input[i - 1] - '0';
+            }
+        }
+
+        Course* c = new Course(name, L, T, Lb, CLb);
+        c->assignFaculty(new Faculty(prof));
+        courses.push_back(c);
+        courseMap[name] = c;
+
     }
 
-    for(int i = 0; i < timetable.size();i++) {
-        timetable[i]->print();
+    fin.close();
+
+    fin.open("groups.txt", std::ifstream::in);
+    fin >> n;
+
+    for(int k = 0; k < n; k++) {
+        std::string name = "";
+        int sz = 0;
+        fin >> name >> sz;
+
+        Group* g = new Group(name, sz);
+
+        std::string curr = "";
+
+        fin.getline(input, 256);
+        fin.getline(input, 256);
+        for(int i = 0; i < fin.gcount(); i++) {
+            if(input[i] == ',' || input[i] == '\0') {
+                courseMap[curr]->enrollGroup(g);
+                curr = "";
+            }
+            else{
+                curr += input[i];
+            }
+        }
+
     }
+
+    for(int i = 0; i < courses.size(); i++) {
+        reg(courses[i], "Lab", courses[i]->Lb);
+    }
+
+    for(int i = 0; i < courses.size(); i++) {
+        reg(courses[i], "CompLab", courses[i]->CLb);
+    }
+
+    for(int i = 0; i < courses.size(); i++) {
+        reg(courses[i], "Lecture", courses[i]->L);
+    }
+    for(int i = 0; i < courses.size(); i++) {
+        reg(courses[i], "Tutorial", courses[i]->T);
+    }
+
 }
