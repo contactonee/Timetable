@@ -1,10 +1,13 @@
-Y1	Beng114, Beng221
+4
 
-Asma Perveen: Beng114
-Vipin Kizhepatt: Beng221
+EEEY1 60
+Materials,Health & Safety,Mathematics I
 
-Beng114 1L, 5T
-Beng221 1L, 5CLb
+CHEY1 60
+Materials,Health & Safety,Mathematics I
 
-Orange Hall: 240
-6.552: 60,Computers
+CEY1 60
+Materials,Health & Safety,Mathematics I
+
+MEY1 60
+Materials,Health & Safety,Mathematics I

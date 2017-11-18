@@ -28,13 +28,13 @@
 		<Unit filename="Faculty.h" />
 		<Unit filename="Group.cpp" />
 		<Unit filename="Group.h" />
-		<Unit filename="Lesson.cpp" />
-		<Unit filename="Lesson.h" />
 		<Unit filename="Main.cpp" />
 		<Unit filename="Reservable.cpp" />
 		<Unit filename="Reservable.h" />
 		<Unit filename="Room.cpp" />
 		<Unit filename="Room.h" />
+		<Unit filename="Student.cpp" />
+		<Unit filename="Student.h" />
 		<Unit filename="Time.cpp" />
 		<Unit filename="Time.h" />
 		<Unit filename="Timeslot.cpp" />

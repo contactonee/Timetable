@@ -1,12 +1,11 @@
 #include "Group.h"
 
-Group::Group(std::string name, int size, Group* parent) {
+Group::Group(std::string name, int size) {
     Name = name;
     Size = size;
-    Parent = parent;
-
-    InitSlots();
-
+    for(int i = 0; i < size; i++) {
+        students.push_back(new Student());
+    }
 }
 
 std::string Group::name() {
@@ -15,17 +14,4 @@ std::string Group::name() {
 
 int Group::size() {
     return Size;
-}
-
-void Group::reserve(int k) {
-    reserve(this, k);
-}
-
-void Group::reserve(Group* group, int k) {
-
-    if(group != NULL) {
-        group->slots[k]->available = 0;
-
-    }
-
 }

@@ -19,7 +19,6 @@ int Reservable::getAvailable() {
 
 void Reservable::InitSlots() {
     Total = 20;
-    slots.resize(20);
     for(int i = 1; i <= 5; i++) {
         slots.push_back(new Timeslot(i, 9, 0, 10, 50));
         slots.push_back(new Timeslot(i, 11, 0, 12, 50));

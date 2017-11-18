@@ -6,6 +6,8 @@
 
 class Reservable {
 public:
+    std::vector < Timeslot* > slots;
+
     Reservable();
 
     void reserve(Timeslot* slot);
@@ -13,15 +15,11 @@ public:
 
     int getAvailable();
 
-    std::vector < Timeslot* > slots;
-
     void InitSlots();
 
 private:
     int Reserved = 0;
     int Total = 0;
-
-
 };
 
 
