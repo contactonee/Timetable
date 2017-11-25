@@ -1,13 +1,13 @@
 # depslib dependency file v1.0
-1510680508 source:c:\work\timetable\room.cpp
+1511030131 source:c:\work\timetable\room.cpp
 	"Room.h"
 	<iostream>
 
-1510680408 c:\work\timetable\room.h
+1511030131 c:\work\timetable\room.h
 	<string>
 	"Reservable.h"
 
-1511016092 source:c:\work\timetable\main.cpp
+1511620412 source:c:\work\timetable\main.cpp
 	<iostream>
 	<cstdio>
 	<vector>
@@ -15,6 +15,7 @@
 	<cstdio>
 	<fstream>
 	<map>
+	<string>
 	"Group.h"
 	"Faculty.h"
 	"Course.h"
@@ -31,17 +32,17 @@
 	"Course.h"
 	"Group.h"
 
-1510674290 source:c:\work\timetable\time.cpp
+1511030131 source:c:\work\timetable\time.cpp
 	"Time.h"
 	<cctype>
 
-1510674290 c:\work\timetable\time.h
+1511030131 c:\work\timetable\time.h
 	<string>
 
-1510674290 source:c:\work\timetable\timeslot.cpp
+1511030131 source:c:\work\timetable\timeslot.cpp
 	"Timeslot.h"
 
-1510674290 c:\work\timetable\timeslot.h
+1511030131 c:\work\timetable\timeslot.h
 	"Time.h"
 
 1509816079 source:c:\work\timetable\showable.cpp
@@ -53,43 +54,43 @@
 	"Lesson.h"
 	<vector>
 
-1510749667 source:c:\work\timetable\course.cpp
+1511030131 source:c:\work\timetable\course.cpp
 	"Course.h"
 	<iostream>
 	<string>
 
-1510743373 c:\work\timetable\course.h
+1511030131 c:\work\timetable\course.h
 	<string>
 	<vector>
 	"Group.h"
 	"Faculty.h"
 	"Student.h"
 
-1510677037 source:c:\work\timetable\faculty.cpp
+1511030131 source:c:\work\timetable\faculty.cpp
 	"Faculty.h"
 
 1510597330 c:\work\timetable\faculty.h
 	<string>
 	"Reservable.h"
 
-1510675712 c:\work\timetable\group.h
+1511030131 c:\work\timetable\group.h
 	<string>
 	<vector>
 	"Student.h"
 
-1510675749 source:c:\work\timetable\group.cpp
+1511030131 source:c:\work\timetable\group.cpp
 	"Group.h"
 
-1510674898 c:\work\timetable\reservable.h
+1511030131 c:\work\timetable\reservable.h
 	<vector>
 	"Timeslot.h"
 
-1510675567 source:c:\work\timetable\reservable.cpp
+1511030131 source:c:\work\timetable\reservable.cpp
 	"Reservable.h"
 
-1510675407 source:c:\work\timetable\student.cpp
+1511030131 source:c:\work\timetable\student.cpp
 	"Student.h"
 
-1510675377 c:\work\timetable\student.h
+1511030131 c:\work\timetable\student.h
 	"Reservable.h"
 

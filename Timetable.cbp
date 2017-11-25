@@ -39,6 +39,10 @@
 		<Unit filename="Time.h" />
 		<Unit filename="Timeslot.cpp" />
 		<Unit filename="Timeslot.h" />
+		<Unit filename="courses.txt" />
+		<Unit filename="groups.txt" />
+		<Unit filename="output.txt" />
+		<Unit filename="rooms.txt" />
 		<Extensions>
 			<debugger />
 		</Extensions>

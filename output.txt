@@ -1,107 +1,209 @@
 Mathematics I Lab
+Vasileios  Zarikas
 Mon 09:00 - 10:50
 Group of IDs: 1...48
 Venue: 6.552
 
 
+Materials Tutorial
+Asma Perveen
+Mon 09:00 - 10:50
+Group of IDs: 49...96
+Venue: 3.221
+
+
+Materials Tutorial
+Asma Perveen
+Mon 11:00 - 12:50
+Group of IDs: 1...48
+Venue: 3.221
+
+
 Mathematics I Lab
+Vasileios  Zarikas
 Mon 11:00 - 12:50
 Group of IDs: 49...96
 Venue: 6.552
 
 
 Mathematics I Lab
+Vasileios  Zarikas
 Mon 14:00 - 15:50
 Group of IDs: 97...144
 Venue: 6.552
 
 
+Materials Tutorial
+Asma Perveen
+Mon 14:00 - 15:50
+Group of IDs: 145...192
+Venue: 3.221
+
+
+Materials Tutorial
+Asma Perveen
+Mon 16:00 - 17:50
+Group of IDs: 97...144
+Venue: 3.221
+
+
 Mathematics I Lab
+Vasileios  Zarikas
 Mon 16:00 - 17:50
 Group of IDs: 145...192
 Venue: 6.552
 
 
+Health & Safety Tutorial
+Ming Yang
+Tue 09:00 - 10:50
+Group of IDs: 1...48
+Venue: 3.221
+
+
 Mathematics I Lab
+Vasileios  Zarikas
 Tue 09:00 - 10:50
 Group of IDs: 193...240
 Venue: 6.552
 
 
-Materials Lecture
+Programming CompLab
+Vipin Kizheppatt
 Tue 11:00 - 12:50
-Group of IDs: 1...240
-Venue: Orange Hall
-
-
-Health & Safety Lecture
-Tue 14:00 - 15:50
-Group of IDs: 1...240
-Venue: Orange Hall
-
-
-Mathematics I Lecture
-Tue 16:00 - 17:50
-Group of IDs: 1...240
-Venue: Orange Hall
-
-
-Materials Tutorial
-Mon 11:00 - 12:50
 Group of IDs: 1...48
-Venue: 3.221
+Venue: 6.552
 
 
 Materials Tutorial
-Mon 09:00 - 10:50
+Asma Perveen
+Tue 11:00 - 12:50
+Group of IDs: 193...240
+Venue: 3.221
+
+
+Programming CompLab
+Vipin Kizheppatt
+Tue 14:00 - 15:50
 Group of IDs: 49...96
-Venue: 3.221
+Venue: 6.552
 
 
-Materials Tutorial
-Mon 16:00 - 17:50
+Health & Safety Tutorial
+Ming Yang
+Tue 14:00 - 15:50
 Group of IDs: 97...144
 Venue: 3.221
 
 
-Materials Tutorial
-Mon 14:00 - 15:50
-Group of IDs: 145...192
+Health & Safety Tutorial
+Ming Yang
+Tue 16:00 - 17:50
+Group of IDs: 49...96
 Venue: 3.221
 
 
-Materials Tutorial
+Programming CompLab
+Vipin Kizheppatt
+Tue 16:00 - 17:50
+Group of IDs: 97...144
+Venue: 6.552
+
+
+Programming CompLab
+Vipin Kizheppatt
+Wed 09:00 - 10:50
+Group of IDs: 145...192
+Venue: 6.552
+
+
+Health & Safety Tutorial
+Ming Yang
 Wed 09:00 - 10:50
 Group of IDs: 193...240
 Venue: 3.221
 
 
 Health & Safety Tutorial
-Tue 09:00 - 10:50
-Group of IDs: 1...48
-Venue: 3.221
-
-
-Health & Safety Tutorial
+Ming Yang
 Wed 11:00 - 12:50
-Group of IDs: 49...96
-Venue: 3.221
-
-
-Health & Safety Tutorial
-Wed 14:00 - 15:50
-Group of IDs: 97...144
-Venue: 3.221
-
-
-Health & Safety Tutorial
-Wed 16:00 - 17:50
 Group of IDs: 145...192
 Venue: 3.221
 
 
-Health & Safety Tutorial
+Programming CompLab
+Vipin Kizheppatt
+Wed 11:00 - 12:50
+Group of IDs: 193...240
+Venue: 6.552
+
+
+Materials Lecture
+Asma Perveen
+Wed 14:00 - 15:50
+Group of IDs: 1...240
+Venue: Orange Hall
+
+
+Health & Safety Lecture
+Ming Yang
+Wed 16:00 - 17:50
+Group of IDs: 1...240
+Venue: Orange Hall
+
+
+Mathematics I Lecture
+Vasileios  Zarikas
 Thu 09:00 - 10:50
+Group of IDs: 1...240
+Venue: Orange Hall
+
+
+Programming Lecture
+Vipin Kizheppatt
+Thu 11:00 - 12:50
+Group of IDs: 1...240
+Venue: Orange Hall
+
+
+Mechanics Lecture
+Anatoli Vakhguelt
+Thu 14:00 - 15:50
+Group of IDs: 1...240
+Venue: Orange Hall
+
+
+Mechanics Tutorial
+Anatoli Vakhguelt
+Thu 16:00 - 17:50
+Group of IDs: 1...48
+Venue: 3.221
+
+
+Mechanics Tutorial
+Anatoli Vakhguelt
+Fri 09:00 - 10:50
+Group of IDs: 49...96
+Venue: 3.221
+
+
+Mechanics Tutorial
+Anatoli Vakhguelt
+Fri 11:00 - 12:50
+Group of IDs: 97...144
+Venue: 3.221
+
+
+Mechanics Tutorial
+Anatoli Vakhguelt
+Fri 14:00 - 15:50
+Group of IDs: 145...192
+Venue: 3.221
+
+
+Mechanics Tutorial
+Anatoli Vakhguelt
+Fri 16:00 - 17:50
 Group of IDs: 193...240
 Venue: 3.221
 
