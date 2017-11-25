@@ -1,13 +1,15 @@
 4
 
 EEEY1 60
-Materials,Health & Safety,Mathematics I
+Materials,Health & Safety,Mathematics I,Mechanics,Programming
 
 CHEY1 60
-Materials,Health & Safety,Mathematics I
+Materials,Health & Safety,Mathematics I,Mechanics,Programming
 
 CEY1 60
-Materials,Health & Safety,Mathematics I
+Materials,Health & Safety,Mathematics I,Mechanics,Programming
 
 MEY1 60
-Materials,Health & Safety,Mathematics I
+Materials,Health & Safety,Mathematics I,Mechanics,Programming
+
+

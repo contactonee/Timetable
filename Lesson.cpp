@@ -1,8 +1,9 @@
 #include "Lesson.h"
-#include <iostream>
+#include <cstdio>
 #include "Time.h"
 
 Lesson::Lesson(Course* course,
+        std::string type,
         Group* group,
         Room* room,
         Timeslot* timeslot){
@@ -14,15 +15,21 @@ Lesson::Lesson(Course* course,
 
 void Lesson::print() {
 
-    std::cout << timeslot->getBegin()->getDay() << " " << timeslot->getBegin()->getHours() << ":00 - ";
-    std::cout << timeslot->getEnd()->getHours() << ":00\n";
+    Time t1 = timeslot->begin();
+    Time t2 = timeslot->end();
 
-    std::cout << course->getTitle() << " by Prof. ";
-    std::cout << course->getFaculty()->name << "\n";
-
-    std::cout << group->name << "\n";
-
-    std::cout << "Venue: " << room->getTitle() << "\n\n";
+    std::printf("%s %s\n%s\n%s %02d:%02d - %02d:%02d\nGroup of IDs: %d...%d\nVenue: %s\n\n\n",
+        course->name().c_str(),
+        type.c_str(),
+        course->faculty()->name.c_str(),
+        days[t1.day()].c_str(),
+        t1.hours(),
+        t1.minutes(),
+        t2.hours(),
+        t2.minutes(),
+        course->students[l]->id,
+        course->students[r]->id,
+        cand->name().c_str());
 
 
 

@@ -5,6 +5,7 @@
 #include <cstdio>
 #include <fstream>
 #include <map>
+#include <string>
 
 
 #include "Group.h"
@@ -18,6 +19,7 @@ std::vector < Course* > courses;
 std::vector < Room* > rooms;
 std::map < std::string, Course* > courseMap;
 std::string days[] = {"", "Mon", "Tue", "Wed", "Thu", "Fri"};
+std::vector < std::pair < int, std::string > > lessons;
 
 
 bool roomsCmp(Room* a, Room* b) {
@@ -92,9 +94,14 @@ void reg(Course* c, std::string type, int n) {
 
                         Time t1 = cand->slots[k]->begin();
                         Time t2 = cand->slots[k]->end();
-                        std::printf("%s %s\n%s %02d:%02d - %02d:%02d\nGroup of IDs: %d...%d\nVenue: %s\n\n\n",
+
+                        char str[256];
+                        int abstime = t1.timestamp() + c->students[l]->id;
+
+                        std::sprintf(str, "%s %s\n%s\n%s %02d:%02d - %02d:%02d\nGroup of IDs: %d...%d\nVenue: %s\n\n\n\0",
                             c->name().c_str(),
                             type.c_str(),
+                            c->faculty()->name.c_str(),
                             days[t1.day()].c_str(),
                             t1.hours(),
                             t1.minutes(),
@@ -103,6 +110,9 @@ void reg(Course* c, std::string type, int n) {
                             c->students[l]->id,
                             c->students[r]->id,
                             cand->name().c_str());
+
+                        lessons.push_back(std::make_pair(abstime, std::string(str)));
+
                         done = 1;
                     }
                 }
@@ -266,6 +276,12 @@ int main() {
     }
     for(int i = 0; i < courses.size(); i++) {
         reg(courses[i], "Tutorial", courses[i]->T);
+    }
+
+    std::sort(lessons.begin(), lessons.end());
+
+    for(int i = 0; i < lessons.size(); i++) {
+        std::cout << (lessons[i].second);
     }
 
 }

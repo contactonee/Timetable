@@ -1,4 +1,4 @@
-3
+5
 
 Materials
 Asma Perveen
@@ -11,3 +11,11 @@ Ming Yang
 Mathematics I
 Vasileios  Zarikas
 1L, 5Lb
+
+Programming
+Vipin Kizheppatt
+1L, 5CLb
+
+Mechanics
+Anatoli Vakhguelt
+1L, 5T
