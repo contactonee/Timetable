@@ -127,7 +127,7 @@ void reg(Course* c, string type, int n) {
 
 int main() {
 
-    freopen("output.txt", "w", stdout);
+    freopen("timetable.txt", "w", stdout);
 
     ifstream fin;
     int n;

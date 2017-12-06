@@ -118,7 +118,7 @@ Venue: 3.223
 
 
 Electromagnetics Lecture
-Danielosi
+Daniele Tosi
 Mon 11:00 - 12:50
 Group of IDs: 481...540
 Venue: 3.221
@@ -146,7 +146,7 @@ Venue: 3.302
 
 
 Project Management Lecture
-Seriokbolat
+Serik Tokbolat
 Mon 11:00 - 12:50
 Group of IDs: 721...960
 Venue: Orange Hall
@@ -209,7 +209,7 @@ Venue: 3.221
 
 
 Digital Communications Lecture
-Theodorosiftsis
+Theodoros Tsiftsis
 Mon 14:00 - 15:50
 Group of IDs: 721...780
 Venue: Orange Hall
@@ -250,7 +250,7 @@ Group of IDs: 271...300
 Venue: Room9
 
 
-Introductioo Chemical Engineering Lecture
+Introduction to Chemical Engineering Lecture
 Moulay-Rachid Babaa
 Mon 16:00 - 17:50
 Group of IDs: 301...360
@@ -362,7 +362,7 @@ Group of IDs: 541...600
 Venue: 3.223
 
 
-Constructioechnologies and Processes Lecture
+Construction Technologies and Processes Lecture
 Hau Leung
 Tue 09:00 - 10:50
 Group of IDs: 601...900
@@ -439,7 +439,7 @@ Group of IDs: 661...690
 Venue: Room10
 
 
-Hearansfer Lab
+Heat Transfer Lab
 Maxime Mussard
 Tue 11:00 - 12:50
 Group of IDs: 691...720
@@ -475,7 +475,7 @@ Venue: Room7
 
 
 Civil Engineering CAD Lecture
-Saululebekova
+Saule Tulebekova
 Tue 14:00 - 15:50
 Group of IDs: 361...420
 Venue: 3.221
@@ -502,7 +502,7 @@ Group of IDs: 541...600
 Venue: 3.223
 
 
-Hearansfer Lab
+Heat Transfer Lab
 Maxime Mussard
 Tue 14:00 - 15:50
 Group of IDs: 661...690
@@ -559,7 +559,7 @@ Venue: Room8
 
 
 Civil Engineering CAD CompLab
-Saululebekova
+Saule Tulebekova
 Tue 16:00 - 17:50
 Group of IDs: 391...420
 Venue: Room9
@@ -608,7 +608,7 @@ Venue: Room11
 
 
 Heating, Ventilating, and Air Conditioning Lecture
-Soeh
+Soo Teh
 Tue 16:00 - 17:50
 Group of IDs: 901...960
 Venue: 3.302
@@ -628,7 +628,7 @@ Group of IDs: 241...300
 Venue: 3.223
 
 
-Chemical Engineerinhermodynamics Lecture
+Chemical Engineering Thermodynamics Lecture
 Dhawal Shah
 Wed 09:00 - 10:50
 Group of IDs: 301...360
@@ -636,7 +636,7 @@ Venue: 3.221
 
 
 Civil Engineering CAD CompLab
-Saululebekova
+Saule Tulebekova
 Wed 09:00 - 10:50
 Group of IDs: 361...390
 Venue: Room9
@@ -734,7 +734,7 @@ Venue: Room10
 
 
 Electromagnetics CompLab
-Danielosi
+Daniele Tosi
 Wed 11:00 - 12:50
 Group of IDs: 501...520
 Venue: Room11
@@ -797,7 +797,7 @@ Venue: Room6
 
 
 Electromagnetics CompLab
-Danielosi
+Daniele Tosi
 Wed 14:00 - 15:50
 Group of IDs: 481...500
 Venue: Room10
@@ -817,7 +817,7 @@ Group of IDs: 541...600
 Venue: Room8
 
 
-Hearansfer Lecture
+Heat Transfer Lecture
 Maxime Mussard
 Wed 14:00 - 15:50
 Group of IDs: 661...720
@@ -825,7 +825,7 @@ Venue: 3.223
 
 
 Digital Communications CompLab
-Theodorosiftsis
+Theodoros Tsiftsis
 Wed 14:00 - 15:50
 Group of IDs: 721...780
 Venue: Room11
@@ -936,7 +936,7 @@ Group of IDs: 241...300
 Venue: Room8
 
 
-Introductioo Chemical Engineering Tutorial
+Introduction to Chemical Engineering Tutorial
 Moulay-Rachid Babaa
 Thu 09:00 - 10:50
 Group of IDs: 301...360
@@ -958,14 +958,14 @@ Venue: 3.223
 
 
 Electromagnetics CompLab
-Danielosi
+Daniele Tosi
 Thu 09:00 - 10:50
 Group of IDs: 521...540
 Venue: Room6
 
 
 Project Management Tutorial
-Seriokbolat
+Serik Tokbolat
 Thu 09:00 - 10:50
 Group of IDs: 561...640
 Venue: Room9
@@ -985,14 +985,14 @@ Group of IDs: 781...840
 Venue: 6.552
 
 
-Constructioechnologies and Processes Tutorial
+Construction Technologies and Processes Tutorial
 Hau Leung
 Thu 09:00 - 10:50
 Group of IDs: 841...900
 Venue: Room10
 
 
-Feasibility Analysis of Clean Energechnologies CompLab
+Feasibility Analysis of Clean Energy Technologies CompLab
 Luis Rojas
 Thu 09:00 - 10:50
 Group of IDs: 901...960
@@ -1028,7 +1028,7 @@ Venue: Room6
 
 
 Project Management Lecture
-Seriokbolat
+Serik Tokbolat
 Thu 11:00 - 12:50
 Group of IDs: 481...720
 Venue: Room7
@@ -1055,7 +1055,7 @@ Group of IDs: 841...900
 Venue: 3.223
 
 
-Feasibility Analysis of Clean Energechnologies Lecture
+Feasibility Analysis of Clean Energy Technologies Lecture
 Luis Rojas
 Thu 11:00 - 12:50
 Group of IDs: 901...960
@@ -1076,7 +1076,7 @@ Group of IDs: 241...300
 Venue: Room9
 
 
-Chemical Engineerinhermodynamics Tutorial
+Chemical Engineering Thermodynamics Tutorial
 Dhawal Shah
 Thu 14:00 - 15:50
 Group of IDs: 301...360
@@ -1098,7 +1098,7 @@ Venue: 3.223
 
 
 Project Management Tutorial
-Seriokbolat
+Serik Tokbolat
 Thu 14:00 - 15:50
 Group of IDs: 481...560
 Venue: Room6
@@ -1111,7 +1111,7 @@ Group of IDs: 601...660
 Venue: 3.302
 
 
-Hearansfer Tutorial
+Heat Transfer Tutorial
 Maxime Mussard
 Thu 14:00 - 15:50
 Group of IDs: 661...720
@@ -1168,7 +1168,7 @@ Venue: Room8
 
 
 Civil Engineering CAD Tutorial
-Saululebekova
+Saule Tulebekova
 Thu 16:00 - 17:50
 Group of IDs: 361...420
 Venue: Orange Hall
@@ -1196,14 +1196,14 @@ Venue: 6.552
 
 
 Project Management Tutorial
-Seriokbolat
+Serik Tokbolat
 Thu 16:00 - 17:50
 Group of IDs: 641...720
 Venue: Room6
 
 
 Heating, Ventilating, and Air Conditioning Tutorial
-Soeh
+Soo Teh
 Thu 16:00 - 17:50
 Group of IDs: 901...960
 Venue: Room10
@@ -1245,7 +1245,7 @@ Venue: Room9
 
 
 Electromagnetics Tutorial
-Danielosi
+Daniele Tosi
 Fri 09:00 - 10:50
 Group of IDs: 481...540
 Venue: Room8
@@ -1273,7 +1273,7 @@ Venue: Room10
 
 
 Project Management Tutorial
-Seriokbolat
+Serik Tokbolat
 Fri 09:00 - 10:50
 Group of IDs: 721...800
 Venue: Room6
@@ -1314,7 +1314,7 @@ Group of IDs: 541...600
 Venue: Room6
 
 
-Constructioechnologies and Processes Tutorial
+Construction Technologies and Processes Tutorial
 Hau Leung
 Fri 11:00 - 12:50
 Group of IDs: 601...660
@@ -1329,7 +1329,7 @@ Venue: Room8
 
 
 Project Management Tutorial
-Seriokbolat
+Serik Tokbolat
 Fri 11:00 - 12:50
 Group of IDs: 801...880
 Venue: Orange Hall
@@ -1357,7 +1357,7 @@ Venue: 3.223
 
 
 Project Management Tutorial
-Seriokbolat
+Serik Tokbolat
 Fri 14:00 - 15:50
 Group of IDs: 881...960
 Venue: Orange Hall
