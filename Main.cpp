@@ -13,13 +13,16 @@
 #include "Course.h"
 #include "Room.h"
 
+using namespace std;
 
-std::vector < Group* > groups;
-std::vector < Course* > courses;
-std::vector < Room* > rooms;
-std::map < std::string, Course* > courseMap;
-std::string days[] = {"", "Mon", "Tue", "Wed", "Thu", "Fri"};
-std::vector < std::pair < int, std::string > > lessons;
+
+vector < Group* > groups;
+vector < Course* > courses;
+vector < Room* > rooms;
+map < string, Course* > courseMap;
+map < string, Faculty* > facultyMap;
+string days[] = {"", "Mon", "Tue", "Wed", "Thu", "Fri"};
+vector < pair < int, string > > lessons;
 
 
 bool roomsCmp(Room* a, Room* b) {
@@ -40,9 +43,9 @@ bool roomsCmp(Room* a, Room* b) {
     }
 }
 
-void reg(Course* c, std::string type, int n) {
+void reg(Course* c, string type, int n) {
 
-    if(n == 0) {
+    if(n == 0 || c->students.size() == 0) {
         return;
     }
 
@@ -98,7 +101,7 @@ void reg(Course* c, std::string type, int n) {
                         char str[256];
                         int abstime = t1.timestamp() + c->students[l]->id;
 
-                        std::sprintf(str, "%s %s\n%s\n%s %02d:%02d - %02d:%02d\nGroup of IDs: %d...%d\nVenue: %s\n\n\n\0",
+                        sprintf(str, "%s %s\n%s\n%s %02d:%02d - %02d:%02d\nGroup of IDs: %d...%d\nVenue: %s\n\n\n\0",
                             c->name().c_str(),
                             type.c_str(),
                             c->faculty()->name.c_str(),
@@ -111,7 +114,7 @@ void reg(Course* c, std::string type, int n) {
                             c->students[r]->id,
                             cand->name().c_str());
 
-                        lessons.push_back(std::make_pair(abstime, std::string(str)));
+                        lessons.push_back(make_pair(abstime, string(str)));
 
                         done = 1;
                     }
@@ -126,12 +129,12 @@ int main() {
 
     freopen("output.txt", "w", stdout);
 
-    std::ifstream fin;
+    ifstream fin;
     int n;
     char input[256];
 
 
-    fin.open("rooms.txt", std::ifstream::in);
+    fin.open("rooms.txt", ifstream::in);
     fin >> n;
     fin.getline(input, 256);
 
@@ -144,7 +147,7 @@ int main() {
 
         int i = 0;
 
-        std::string name = "";
+        string name = "";
         int sz = 0;
         bool complab = 0, lab = 0;
 
@@ -178,10 +181,10 @@ int main() {
     }
     fin.close();
 
-    std::sort(rooms.begin(), rooms.end(), roomsCmp);
+    sort(rooms.begin(), rooms.end(), roomsCmp);
 
 
-    fin.open("courses.txt", std::ifstream::in);
+    fin.open("courses.txt", ifstream::in);
     fin >> n;
     fin.getline(input, 256);
 
@@ -193,15 +196,22 @@ int main() {
         }
         int i = 0;
 
+        // Fill the course abbreviature
+        string abbr = "";
+        for(i = 0; i < fin.gcount() - 1; i++){
+            abbr += input[i];
+        }
+
         // Fill the course name
-        std::string name = "";
+        fin.getline(input, 256);
+        string name = "";
         for(i = 0; i < fin.gcount() - 1; i++){
             name += input[i];
         }
 
         // Fill the faculty name
         fin.getline(input, 256);
-        std::string prof = "";
+        string prof = "";
         for(i = 0; i < fin.gcount() - 1; i++){
             prof += input[i];
         }
@@ -228,26 +238,32 @@ int main() {
             }
         }
 
-        Course* c = new Course(name, L, T, Lb, CLb);
-        c->assignFaculty(new Faculty(prof));
+        Course* c = new Course(abbr, name, L, T, Lb, CLb);
+        if(facultyMap.count(prof)) {
+            c->assignFaculty(facultyMap[prof]);
+        }
+        else {
+            c->assignFaculty(new Faculty(prof));
+        }
         courses.push_back(c);
-        courseMap[name] = c;
+        courseMap[abbr] = c;
 
     }
 
     fin.close();
 
-    fin.open("groups.txt", std::ifstream::in);
+    fin.open("groups.txt", ifstream::in);
     fin >> n;
 
     for(int k = 0; k < n; k++) {
-        std::string name = "";
+        string name = "";
         int sz = 0;
         fin >> name >> sz;
 
+
         Group* g = new Group(name, sz);
 
-        std::string curr = "";
+        string curr = "";
 
         fin.getline(input, 256);
         fin.getline(input, 256);
@@ -262,6 +278,9 @@ int main() {
         }
 
     }
+
+    //return 0;
+
 
     for(int i = 0; i < courses.size(); i++) {
         reg(courses[i], "Lab", courses[i]->Lb);
@@ -278,10 +297,10 @@ int main() {
         reg(courses[i], "Tutorial", courses[i]->T);
     }
 
-    std::sort(lessons.begin(), lessons.end());
+    sort(lessons.begin(), lessons.end());
 
     for(int i = 0; i < lessons.size(); i++) {
-        std::cout << (lessons[i].second);
+        cout << (lessons[i].second);
     }
 
 }

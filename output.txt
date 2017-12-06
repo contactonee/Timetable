@@ -1,210 +1,700 @@
-Mathematics I Lab
+Engineering Mathematics I Lab
 Vasileios  Zarikas
 Mon 09:00 - 10:50
 Group of IDs: 1...48
 Venue: 6.552
 
 
-Materials Tutorial
-Asma Perveen
+Engineering Mathematics III Lecture
+Desmond Adair
 Mon 09:00 - 10:50
-Group of IDs: 49...96
+Group of IDs: 241...360
+Venue: Orange Hall
+
+
+Surveying Lecture
+Zhandos Keimkulov
+Mon 09:00 - 10:50
+Group of IDs: 361...420
 Venue: 3.221
 
 
-Materials Tutorial
-Asma Perveen
-Mon 11:00 - 12:50
-Group of IDs: 1...48
-Venue: 3.221
+Multi-Phase Flows Lecture
+Sergey Spotar
+Mon 09:00 - 10:50
+Group of IDs: 781...840
+Venue: 3.223
 
 
-Mathematics I Lab
+Feasibility Analysis of Clean Energy Technologies Lecture
+Luis Rojas
+Mon 09:00 - 10:50
+Group of IDs: 901...960
+Venue: 3.302
+
+
+Engineering Mathematics I Lab
 Vasileios  Zarikas
 Mon 11:00 - 12:50
 Group of IDs: 49...96
 Venue: 6.552
 
 
-Mathematics I Lab
+Sensors and Actuators Lecture
+Nazim Mir-Nasiri
+Mon 11:00 - 12:50
+Group of IDs: 241...480
+Venue: Orange Hall
+
+
+Civil Engineering CAD Lecture
+Saule Tulebekova
+Mon 11:00 - 12:50
+Group of IDs: 361...420
+Venue: 3.221
+
+
+Digital Signal and Image Processing Lecture
+Muhammad Akhtar
+Mon 11:00 - 12:50
+Group of IDs: 481...540
+Venue: 3.223
+
+
+Machine Dynamics II Lecture
+Tair Askar
+Mon 11:00 - 12:50
+Group of IDs: 661...720
+Venue: 3.302
+
+
+Engineering Materials Tutorial
+Asma Perveen
+Mon 14:00 - 15:50
+Group of IDs: 1...48
+Venue: 3.302
+
+
+Engineering Mathematics I Lab
 Vasileios  Zarikas
 Mon 14:00 - 15:50
 Group of IDs: 97...144
 Venue: 6.552
 
 
-Materials Tutorial
-Asma Perveen
+Signals and Systems Lecture
+Behrouz Maham
 Mon 14:00 - 15:50
-Group of IDs: 145...192
+Group of IDs: 241...300
+Venue: 3.223
+
+
+Stuctural Analysis Lecture
+Shazim Memon
+Mon 14:00 - 15:50
+Group of IDs: 361...420
 Venue: 3.221
 
 
-Materials Tutorial
+Project Management Lecture
+Serik Tokbolat
+Mon 14:00 - 15:50
+Group of IDs: 481...720
+Venue: Orange Hall
+
+
+Engineering Materials Tutorial
 Asma Perveen
 Mon 16:00 - 17:50
-Group of IDs: 97...144
-Venue: 3.221
+Group of IDs: 49...96
+Venue: 3.302
 
 
-Mathematics I Lab
+Engineering Mathematics I Lab
 Vasileios  Zarikas
 Mon 16:00 - 17:50
 Group of IDs: 145...192
 Venue: 6.552
 
 
-Health & Safety Tutorial
-Ming Yang
-Tue 09:00 - 10:50
-Group of IDs: 1...48
+Microelectronic Devices and Circuits Lecture
+Alex James
+Mon 16:00 - 17:50
+Group of IDs: 241...300
+Venue: 3.223
+
+
+Civil Engineering Materials Lecture
+Chang Shon
+Mon 16:00 - 17:50
+Group of IDs: 361...420
 Venue: 3.221
 
 
-Mathematics I Lab
+Project Management Lecture
+Serik Tokbolat
+Mon 16:00 - 17:50
+Group of IDs: 721...960
+Venue: Orange Hall
+
+
+Engineering Materials Tutorial
+Asma Perveen
+Tue 09:00 - 10:50
+Group of IDs: 97...144
+Venue: 3.302
+
+
+Engineering Mathematics I Lab
 Vasileios  Zarikas
 Tue 09:00 - 10:50
 Group of IDs: 193...240
 Venue: 6.552
 
 
-Programming CompLab
-Vipin Kizheppatt
-Tue 11:00 - 12:50
-Group of IDs: 1...48
-Venue: 6.552
+Electronic Engineering Design Principles Lecture
+Refik Kizilirmak
+Tue 09:00 - 10:50
+Group of IDs: 241...300
+Venue: 3.223
 
 
-Materials Tutorial
+Engineering Mathematics III Lecture
+Desmond Adair
+Tue 09:00 - 10:50
+Group of IDs: 361...480
+Venue: Orange Hall
+
+
+Engineering Geology and Rock Mechanics Lecture
+Minh Nguyen
+Tue 09:00 - 10:50
+Group of IDs: 601...660
+Venue: 3.221
+
+
+Engineering Materials Lecture
 Asma Perveen
 Tue 11:00 - 12:50
-Group of IDs: 193...240
-Venue: 3.221
+Group of IDs: 1...240
+Venue: Orange Hall
 
 
-Programming CompLab
-Vipin Kizheppatt
-Tue 14:00 - 15:50
-Group of IDs: 49...96
+Sensors and Actuators Tutorial
+Nazim Mir-Nasiri
+Tue 11:00 - 12:50
+Group of IDs: 241...300
+Venue: 3.302
+
+
+Surveying Lab
+Zhandos Keimkulov
+Tue 11:00 - 12:50
+Group of IDs: 361...420
 Venue: 6.552
 
 
-Health & Safety Tutorial
+Electromagnetics Lecture
+Daniele Tosi
+Tue 11:00 - 12:50
+Group of IDs: 481...540
+Venue: 3.223
+
+
+Structural Design - Concrete Lecture
+Dichuan Zhang
+Tue 11:00 - 12:50
+Group of IDs: 601...660
+Venue: 3.221
+
+
+Occupational Health & Safety Lecture
 Ming Yang
 Tue 14:00 - 15:50
-Group of IDs: 97...144
-Venue: 3.221
+Group of IDs: 1...240
+Venue: Orange Hall
 
 
-Health & Safety Tutorial
-Ming Yang
-Tue 16:00 - 17:50
-Group of IDs: 49...96
-Venue: 3.221
-
-
-Programming CompLab
-Vipin Kizheppatt
-Tue 16:00 - 17:50
-Group of IDs: 97...144
+Civil Engineering Materials Lab
+Chang Shon
+Tue 14:00 - 15:50
+Group of IDs: 361...380
 Venue: 6.552
 
 
-Programming CompLab
+Sensors and Actuators Tutorial
+Nazim Mir-Nasiri
+Tue 14:00 - 15:50
+Group of IDs: 421...480
+Venue: 3.302
+
+
+Power Electronics Lecture
+Alexander Ruderman
+Tue 14:00 - 15:50
+Group of IDs: 481...540
+Venue: 3.223
+
+
+Capstone Project 1 Lecture
+Minh Nguyen
+Tue 14:00 - 15:50
+Group of IDs: 841...900
+Venue: 3.221
+
+
+Engineering Mathematics I Lecture
+Vasileios  Zarikas
+Tue 16:00 - 17:50
+Group of IDs: 1...240
+Venue: Orange Hall
+
+
+Civil Engineering Materials Lab
+Chang Shon
+Tue 16:00 - 17:50
+Group of IDs: 381...400
+Venue: 6.552
+
+
+Environmental Engineering Lecture
+Dina Kaskina
+Tue 16:00 - 17:50
+Group of IDs: 601...660
+Venue: 3.221
+
+
+Antennas and Propagation Lecture
+Carlo Molardi
+Tue 16:00 - 17:50
+Group of IDs: 721...780
+Venue: 3.223
+
+
+Construction Technologies and Processes Tutorial
+Hau Leung
+Tue 16:00 - 17:50
+Group of IDs: 841...900
+Venue: 3.302
+
+
+Programming for Engineers Lecture
 Vipin Kizheppatt
 Wed 09:00 - 10:50
-Group of IDs: 145...192
-Venue: 6.552
+Group of IDs: 1...240
+Venue: Orange Hall
 
 
-Health & Safety Tutorial
-Ming Yang
+Civil Engineering Materials Lab
+Chang Shon
 Wed 09:00 - 10:50
-Group of IDs: 193...240
-Venue: 3.221
-
-
-Health & Safety Tutorial
-Ming Yang
-Wed 11:00 - 12:50
-Group of IDs: 145...192
-Venue: 3.221
-
-
-Programming CompLab
-Vipin Kizheppatt
-Wed 11:00 - 12:50
-Group of IDs: 193...240
+Group of IDs: 401...420
 Venue: 6.552
 
 
-Materials Lecture
+Digital integrated circuits design Lecture
+Vipin Kizheppatt
+Wed 09:00 - 10:50
+Group of IDs: 481...540
+Venue: 3.223
+
+
+Engineering Geology and Rock Mechanics Tutorial
+Minh Nguyen
+Wed 09:00 - 10:50
+Group of IDs: 601...660
+Venue: 3.302
+
+
+Highway Engineering Lecture
+Chang Shon
+Wed 09:00 - 10:50
+Group of IDs: 841...900
+Venue: 3.221
+
+
+Engineering Mechanics Lecture
+Anatoli Vakhguelt
+Wed 11:00 - 12:50
+Group of IDs: 1...240
+Venue: Orange Hall
+
+
+Engineering Mathematics III Lab
+Desmond Adair
+Wed 11:00 - 12:50
+Group of IDs: 241...280
+Venue: 6.552
+
+
+Surveying Tutorial
+Zhandos Keimkulov
+Wed 11:00 - 12:50
+Group of IDs: 361...420
+Venue: 3.302
+
+
+Digital Communications Lecture
+Theodoros Tsiftsis
+Wed 11:00 - 12:50
+Group of IDs: 721...780
+Venue: 3.223
+
+
+Environmental Systems Lecture
+Yelyzaveta Arkhangelsky
+Wed 11:00 - 12:50
+Group of IDs: 841...900
+Venue: 3.221
+
+
+Engineering Materials Tutorial
 Asma Perveen
 Wed 14:00 - 15:50
-Group of IDs: 1...240
+Group of IDs: 145...192
+Venue: 3.302
+
+
+Engineering Mathematics III Lab
+Desmond Adair
+Wed 14:00 - 15:50
+Group of IDs: 281...320
+Venue: 6.552
+
+
+Separation Processes-I Lecture
+Vasileios Inglezakis
+Wed 14:00 - 15:50
+Group of IDs: 541...600
+Venue: 3.221
+
+
+Construction Technologies and Processes Lecture
+Hau Leung
+Wed 14:00 - 15:50
+Group of IDs: 601...900
 Venue: Orange Hall
 
 
-Health & Safety Lecture
-Ming Yang
+Capstone Project 1 Lecture
+Alex James
+Wed 14:00 - 15:50
+Group of IDs: 721...780
+Venue: 3.223
+
+
+Engineering Mechanics Tutorial
+Anatoli Vakhguelt
 Wed 16:00 - 17:50
-Group of IDs: 1...240
+Group of IDs: 145...192
 Venue: Orange Hall
 
 
-Mathematics I Lecture
-Vasileios  Zarikas
+Engineering Materials Tutorial
+Asma Perveen
+Wed 16:00 - 17:50
+Group of IDs: 193...240
+Venue: 3.302
+
+
+Engineering Mathematics III Lab
+Desmond Adair
+Wed 16:00 - 17:50
+Group of IDs: 321...360
+Venue: 6.552
+
+
+Transport Phenomena-II Lecture
+Sayara Saliyeva
+Wed 16:00 - 17:50
+Group of IDs: 541...600
+Venue: 3.221
+
+
+Mobile Communications Lecture
+Refik Kizilirmak
+Wed 16:00 - 17:50
+Group of IDs: 721...780
+Venue: 3.223
+
+
+Occupational Health & Safety Tutorial
+Ming Yang
 Thu 09:00 - 10:50
-Group of IDs: 1...240
-Venue: Orange Hall
-
-
-Programming Lecture
-Vipin Kizheppatt
-Thu 11:00 - 12:50
-Group of IDs: 1...240
-Venue: Orange Hall
-
-
-Mechanics Lecture
-Anatoli Vakhguelt
-Thu 14:00 - 15:50
-Group of IDs: 1...240
-Venue: Orange Hall
-
-
-Mechanics Tutorial
-Anatoli Vakhguelt
-Thu 16:00 - 17:50
 Group of IDs: 1...48
-Venue: 3.221
+Venue: 3.302
 
 
-Mechanics Tutorial
+Engineering Mechanics Tutorial
 Anatoli Vakhguelt
-Fri 09:00 - 10:50
-Group of IDs: 49...96
+Thu 09:00 - 10:50
+Group of IDs: 193...240
+Venue: Orange Hall
+
+
+Introduction to Chemical Engineering Lecture
+Moulay-Rachid Babaa
+Thu 09:00 - 10:50
+Group of IDs: 301...360
 Venue: 3.221
 
 
-Mechanics Tutorial
+Engineering Mathematics III Lab
+Desmond Adair
+Thu 09:00 - 10:50
+Group of IDs: 361...400
+Venue: 6.552
+
+
+Computer Aided Engineering Lecture
+Yerkin Abdildin
+Thu 09:00 - 10:50
+Group of IDs: 421...480
+Venue: 3.223
+
+
+Occupational Health & Safety Tutorial
+Ming Yang
+Thu 11:00 - 12:50
+Group of IDs: 49...96
+Venue: 3.302
+
+
+Chemistry I Lecture
+Zhumabay Bakenov
+Thu 11:00 - 12:50
+Group of IDs: 301...360
+Venue: 3.221
+
+
+Engineering Mathematics III Lab
+Desmond Adair
+Thu 11:00 - 12:50
+Group of IDs: 401...440
+Venue: 6.552
+
+
+Project Management Tutorial
+Serik Tokbolat
+Thu 11:00 - 12:50
+Group of IDs: 481...560
+Venue: Orange Hall
+
+
+Advanced Control Systems Lecture
+Md Ali
+Thu 11:00 - 12:50
+Group of IDs: 661...720
+Venue: 3.223
+
+
+Occupational Health & Safety Tutorial
+Ming Yang
+Thu 14:00 - 15:50
+Group of IDs: 97...144
+Venue: 3.302
+
+
+Chemical Engineering Thermodynamics Lecture
+Dhawal Shah
+Thu 14:00 - 15:50
+Group of IDs: 301...360
+Venue: 3.221
+
+
+Civil Engineering CAD Tutorial
+Saule Tulebekova
+Thu 14:00 - 15:50
+Group of IDs: 361...420
+Venue: Orange Hall
+
+
+Engineering Mathematics III Lab
+Desmond Adair
+Thu 14:00 - 15:50
+Group of IDs: 441...480
+Venue: 6.552
+
+
+Heat Transfer Lecture
+Maxime Mussard
+Thu 14:00 - 15:50
+Group of IDs: 661...720
+Venue: 3.223
+
+
+Occupational Health & Safety Tutorial
+Ming Yang
+Thu 16:00 - 17:50
+Group of IDs: 145...192
+Venue: 3.302
+
+
+Sensors and Actuators Lab
+Nazim Mir-Nasiri
+Thu 16:00 - 17:50
+Group of IDs: 241...270
+Venue: 6.552
+
+
+Mechanics of Materials Lecture
+Tair Askar
+Thu 16:00 - 17:50
+Group of IDs: 301...480
+Venue: Orange Hall
+
+
+Research Practice Lecture
+Jorge Ona Ruales
+Thu 16:00 - 17:50
+Group of IDs: 541...600
+Venue: 3.221
+
+
+Machine Design Lecture
+Christos Spitas
+Thu 16:00 - 17:50
+Group of IDs: 661...720
+Venue: 3.223
+
+
+Occupational Health & Safety Tutorial
+Ming Yang
+Fri 09:00 - 10:50
+Group of IDs: 193...240
+Venue: 3.302
+
+
+Sensors and Actuators Lab
+Nazim Mir-Nasiri
+Fri 09:00 - 10:50
+Group of IDs: 271...300
+Venue: 6.552
+
+
+Stuctural Analysis Tutorial
+Shazim Memon
+Fri 09:00 - 10:50
+Group of IDs: 361...420
+Venue: Orange Hall
+
+
+Machine Dynamics I Lecture
+Evagoras Xydas
+Fri 09:00 - 10:50
+Group of IDs: 421...480
+Venue: 3.223
+
+
+Capstone project 1 Lecture
+Moulay-Rachid Babaa
+Fri 09:00 - 10:50
+Group of IDs: 781...840
+Venue: 3.221
+
+
+Engineering Mechanics Tutorial
 Anatoli Vakhguelt
 Fri 11:00 - 12:50
-Group of IDs: 97...144
+Group of IDs: 1...48
+Venue: 3.302
+
+
+Civil Engineering Materials Tutorial
+Chang Shon
+Fri 11:00 - 12:50
+Group of IDs: 361...420
+Venue: Orange Hall
+
+
+Sensors and Actuators Lab
+Nazim Mir-Nasiri
+Fri 11:00 - 12:50
+Group of IDs: 421...450
+Venue: 6.552
+
+
+Advanced Process Simulation Lecture
+Torkmahalleh Amouei
+Fri 11:00 - 12:50
+Group of IDs: 781...840
 Venue: 3.221
 
 
-Mechanics Tutorial
+Heating, Ventilating, and Air Conditioning Lecture
+Soo Teh
+Fri 11:00 - 12:50
+Group of IDs: 901...960
+Venue: 3.223
+
+
+Engineering Mechanics Tutorial
 Anatoli Vakhguelt
 Fri 14:00 - 15:50
-Group of IDs: 145...192
+Group of IDs: 49...96
+Venue: 3.302
+
+
+Sensors and Actuators Lab
+Nazim Mir-Nasiri
+Fri 14:00 - 15:50
+Group of IDs: 451...480
+Venue: 6.552
+
+
+Chemical Reaction Engineering Lecture
+Stavros Poulopoulos
+Fri 14:00 - 15:50
+Group of IDs: 541...600
 Venue: 3.221
 
 
-Mechanics Tutorial
+Project Management Tutorial
+Serik Tokbolat
+Fri 14:00 - 15:50
+Group of IDs: 641...720
+Venue: Orange Hall
+
+
+Computer Aided Geometric Design Lecture
+Konstantinos Kostas
+Fri 14:00 - 15:50
+Group of IDs: 901...960
+Venue: 3.223
+
+
+Engineering Mechanics Tutorial
 Anatoli Vakhguelt
 Fri 16:00 - 17:50
-Group of IDs: 193...240
+Group of IDs: 97...144
+Venue: 3.302
+
+
+Engineering Geology and Rock Mechanics Lab
+Minh Nguyen
+Fri 16:00 - 17:50
+Group of IDs: 601...660
+Venue: 6.552
+
+
+Computational Methods in Chemical Engineering-II Lecture
+Boris Golman
+Fri 16:00 - 17:50
+Group of IDs: 781...840
 Venue: 3.221
+
+
+Highway Engineering Tutorial
+Chang Shon
+Fri 16:00 - 17:50
+Group of IDs: 841...900
+Venue: Orange Hall
+
+
+Capstone project 1 Lecture
+Christos Spitas
+Fri 16:00 - 17:50
+Group of IDs: 901...960
+Venue: 3.223
 
 

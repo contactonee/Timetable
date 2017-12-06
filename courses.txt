@@ -1,21 +1,296 @@
-5
+59
 
-Materials
+BENG-117
+Engineering Materials
 Asma Perveen
 1L, 5T
 
-Health & Safety
+BENG-145
+Occupational Health & Safety
 Ming Yang
 1L, 5T
 
-Mathematics I
+BENG-124
+Engineering Mathematics I
 Vasileios  Zarikas
 1L, 5Lb
 
-Programming
+BENG-146
+Programming for Engineers
 Vipin Kizheppatt
 1L, 5CLb
 
-Mechanics
+BENG-221
+Engineering Mechanics
 Anatoli Vakhguelt
 1L, 5T
+
+ECE-215
+Surveying
+Zhandos Keimkulov
+1L, 2CLb, 1T, 1Lb
+
+ECE-216
+Civil Engineering CAD
+Saule Tulebekova
+2CLb, 1L, 1T
+
+ECE-217
+Stuctural Analysis
+Shazim Memon
+1L, 2CLb, 1T
+
+ECE-302
+Civil Engineering Materials
+Chang Shon
+1L, 3Lb, 1T
+
+BENG-228
+Engineering Mathematics III
+Desmond Adair
+2L, 6Lb
+
+BENG-215
+Sensors and Actuators
+Nazim Mir-Nasiri
+4Lb, 1L, 2T
+
+BENG-405
+Project Management
+Serik Tokbolat
+6T, 2L
+
+ECE-307
+Engineering Geology and Rock Mechanics
+Minh Nguyen
+1Lb, 1L, 1T
+
+ECE-318
+Structural Design - Concrete
+Dichuan Zhang
+1T, 1L, 1Lb, 2CLb
+
+ECE-401
+Capstone Project 1
+Minh Nguyen
+1L, 1CLb
+
+ECE-404
+Construction Technologies and Processes
+Hau Leung
+2T, 1L
+
+ECE-405
+Environmental Engineering
+Dina Kaskina
+1L, 1T
+
+ECE-416
+Highway Engineering
+Chang Shon
+1T, 1Lb, 1L
+
+ECE-473
+Environmental Systems
+Yelyzaveta Arkhangelsky
+1L, 1T
+
+ECHE-126
+Introduction to Chemical Engineering
+Moulay-Rachid Babaa
+1L, 1T
+
+ECHE-222
+Chemistry I
+Zhumabay Bakenov
+1L, 1T, 2Lb
+
+ECHE-319
+Chemical Engineering Thermodynamics
+Dhawal Shah
+1L, 1T
+
+ECHE-333
+Separation Processes-I
+Vasileios Inglezakis
+1Lb, 1L, 1T, 1CLb
+
+ECHE-369
+Transport Phenomena-II
+Sayara Saliyeva
+1L, 1T, 1CLb
+
+ECHE-385
+Research Practice
+Jorge Ona Ruales
+1L, 1T
+
+ECHE-418
+Capstone project 1
+Moulay-Rachid Babaa
+1L, T, 1CLb
+
+ECHE-419
+Advanced Process Simulation
+Torkmahalleh Amouei
+1L, T, 1CLb
+
+ECHE-481
+Chemical Reaction Engineering
+Stavros Poulopoulos
+1L, T, 1Lb, 1CLb
+
+ECHE-482
+Computational Methods in Chemical Engineering-II
+Boris Golman
+1L, 1T, 1CLb
+
+ECHE-484
+Multi-Phase Flows
+Sergey Spotar
+1L, 1T, 1CLb
+
+EEE-212
+Signals and Systems
+Behrouz Maham
+1L, 1T, 2Lb
+
+EEE-238
+Digital Signal and Image Processing
+Muhammad Akhtar
+1L, 1T, 3CLb
+
+EEE-250
+Microelectronic Devices and Circuits
+Alex James
+1L, 1T, 2Lb
+
+EEE-251
+Electronic Engineering Design Principles
+Refik Kizilirmak
+1L, T, 2Lb
+
+EEE-342
+Electromagnetics
+Daniele Tosi
+1L, 1T, 3CLb
+
+EEE-345
+Power Electronics
+Alexander Ruderman
+1L, 1T, 3Lb
+
+EEE-382
+Antennas and Propagation
+Carlo Molardi
+1L, 1T, 1Lb
+
+EEE-384
+Digital integrated circuits design
+Vipin Kizheppatt
+1L, 1T, 3Lb
+
+EEE-435
+Digital Communications
+Theodoros Tsiftsis
+1L, T, 1CLb
+
+EEE-437
+Capstone Project 1
+Alex James
+1L, T, 1Lb
+
+EEE-448
+Power Transmission and Distribution plants
+Mehdi Bagheri
+1L, 1T, 1Lb
+
+EEE-450
+RF and Microwave Circuit Design
+Grant Ellis
+1L, 1T, 1Lb
+
+EEE-451
+High Voltage Engineering
+Mehdi Bagheri
+1L, 1T, 1Lb
+
+EEE-452
+Power Systems Protection
+Venkata Sivanand
+1L, 1T, 1Lb
+
+EEE-482
+Mobile Communications
+Refik Kizilirmak
+1L, 1T, 1Lb
+
+EME-253
+Computer Aided Engineering
+Yerkin Abdildin
+1L, T, 1CLb
+
+EME-254
+Mechanics of Materials
+Tair Askar
+1L, 2T, 3Lb
+
+EME-262
+Machine Dynamics I
+Evagoras Xydas
+1L, 1T, 2Lb
+
+EME-354
+Advanced Control Systems
+Md Ali
+1L, T, 2Lb
+
+EME-358
+Heat Transfer
+Maxime Mussard
+1L, 1T, 2Lb
+
+EME-361
+Machine Design
+Christos Spitas
+1L, 1T, 1Lb
+
+EME-410
+Aerodynamics
+Yong Zhao
+1L, 1T
+
+EME-412
+Heating, Ventilating, and Air Conditioning
+Soo Teh
+1L, 1T
+
+EME-413
+Computer Aided Geometric Design
+Konstantinos Kostas
+1L, T, 1Lb
+
+EME-451
+Capstone project 1
+Christos Spitas
+1L, T, 1CLb
+
+EME-456
+Feasibility Analysis of Clean Energy Technologies
+Luis Rojas
+1L, T, 1CLb
+
+EME-463
+Machine Dynamics II
+Tair Askar
+1L, 1T, 2Lb
+
+EME-467
+Vehicle Propulsion Systems
+Desmond Adair
+1L, 1T, 1Lb
+
+EME-486
+Oscillation of Mechanical Systems
+Serik Khairaliyev
+1L, 1T

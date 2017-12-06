@@ -11,7 +11,8 @@
 class Course {
 
 public:
-    Course(std::string name,
+    Course(std::string abbr,
+        std::string name,
         int lectures = 0,
         int tutorials = 0,
         int labs = 0,
@@ -23,16 +24,16 @@ public:
     Faculty* faculty();
 
     std::string name();
+    std::string abbr();
 
     void enrollGroup(Group* group);
     std::vector < Group* > groups;
     std::vector < Student* > students;
 
-    void reg();
-
 private:
     Faculty* prof;
     std::string Name;
+    std::string Abbr;
 };
 
 #endif // COURSE_H

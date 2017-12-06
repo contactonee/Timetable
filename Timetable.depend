@@ -7,7 +7,7 @@
 	<string>
 	"Reservable.h"
 
-1511620412 source:c:\work\timetable\main.cpp
+1512541628 source:c:\work\timetable\main.cpp
 	<iostream>
 	<cstdio>
 	<vector>
@@ -54,12 +54,12 @@
 	"Lesson.h"
 	<vector>
 
-1511030131 source:c:\work\timetable\course.cpp
+1512537314 source:c:\work\timetable\course.cpp
 	"Course.h"
 	<iostream>
 	<string>
 
-1511030131 c:\work\timetable\course.h
+1512537319 c:\work\timetable\course.h
 	<string>
 	<vector>
 	"Group.h"
