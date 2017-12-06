@@ -1,6 +1,12 @@
-5
+11
 Orange Hall, 240
 6.552, 60, labs, complabs
 3.221, 60
 3.223, 60
 3.302, 60
+Room6, 240, labs, complabs
+Room7, 240, labs, complabs
+Room8, 240, labs, complabs
+Room9, 240, labs, complabs
+Room10, 240, labs, complabs
+Room11, 240, labs, complabs

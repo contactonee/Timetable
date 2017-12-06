@@ -23,6 +23,7 @@ map < string, Course* > courseMap;
 map < string, Faculty* > facultyMap;
 string days[] = {"", "Mon", "Tue", "Wed", "Thu", "Fri"};
 vector < pair < int, string > > lessons;
+bool error = 0;
 
 
 bool roomsCmp(Room* a, Room* b) {
@@ -62,32 +63,29 @@ void reg(Course* c, string type, int n) {
     }
 
     int gsz = c->students.size() / n;
-    for(int i = 1, l = 0, r = gsz - 1; i <= n; i++, l +=  gsz, r += gsz) {
+    for(int i = 1, l = 0, r = gsz - 1; i <= n; i++, l += gsz, r += gsz) {
 
-
-        Room* cand = NULL;
         bool done = 0;
-        for(int j = 0; j < rooms.size() && !done; j++) {
-            if(rooms[j]->getAvailable() > 0
-                    && rooms[j]->size() >= gsz
-                    && rooms[j]->compLab >= comp
-                    && rooms[j]->lab >= lab) {
+        for(int k = 0; k < 20 && !done; k++) {
 
-                cand = rooms[j];
+            bool studentsAvailable = 1;
+            for(int p = l; p <= r; p++) {
+                if(!(c->students[p]->slots[k]->available)){
+                    studentsAvailable = 0;
+                    break;
+                }
+            }
 
-                for(int k = 0; k < 20 && !done; k++) {
+            if(c->faculty()->slots[k]->available
+                    && studentsAvailable) {
 
-                    bool studentsAvailable = 1;
-                    for(int p = l; p <= r; p++) {
-                        if(!c->students[p]->slots[k]->available){
-                            studentsAvailable = 0;
-                            break;
-                        }
-                    }
+                for(int j = 0; j < rooms.size() && !done; j++) {
+                    if(rooms[j]->slots[k]->available
+                            && rooms[j]->size() >= gsz
+                            && rooms[j]->compLab >= comp
+                            && rooms[j]->lab >= lab) {
 
-                    if(cand->slots[k]->available
-                            && c->faculty()->slots[k]->available
-                            && studentsAvailable) {
+                        Room* cand = rooms[j];
 
                         cand->reserve(k);
                         c->faculty()->reserve(k);
@@ -121,9 +119,11 @@ void reg(Course* c, string type, int n) {
                 }
             }
         }
+        if(!done) {
+            error = 1;
+        }
     }
 }
-
 
 int main() {
 
@@ -182,6 +182,7 @@ int main() {
     fin.close();
 
     sort(rooms.begin(), rooms.end(), roomsCmp);
+
 
 
     fin.open("courses.txt", ifstream::in);
@@ -296,11 +297,15 @@ int main() {
     for(int i = 0; i < courses.size(); i++) {
         reg(courses[i], "Tutorial", courses[i]->T);
     }
+    if(error) {
+        cout << "Unable to register!";
+    }
+    else {
+        sort(lessons.begin(), lessons.end());
 
-    sort(lessons.begin(), lessons.end());
-
-    for(int i = 0; i < lessons.size(); i++) {
-        cout << (lessons[i].second);
+        for(int i = 0; i < lessons.size(); i++) {
+            cout << (lessons[i].second);
+        }
     }
 
 }

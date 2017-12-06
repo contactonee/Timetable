@@ -128,17 +128,17 @@ Jorge Ona Ruales
 ECHE-418
 Capstone project 1
 Moulay-Rachid Babaa
-1L, T, 1CLb
+1L, 1CLb
 
 ECHE-419
 Advanced Process Simulation
 Torkmahalleh Amouei
-1L, T, 1CLb
+1L, 1CLb
 
 ECHE-481
 Chemical Reaction Engineering
 Stavros Poulopoulos
-1L, T, 1Lb, 1CLb
+1L, 1Lb, 1CLb
 
 ECHE-482
 Computational Methods in Chemical Engineering-II
@@ -168,7 +168,7 @@ Alex James
 EEE-251
 Electronic Engineering Design Principles
 Refik Kizilirmak
-1L, T, 2Lb
+1L, 2Lb
 
 EEE-342
 Electromagnetics
@@ -193,12 +193,12 @@ Vipin Kizheppatt
 EEE-435
 Digital Communications
 Theodoros Tsiftsis
-1L, T, 1CLb
+1L, 1CLb
 
 EEE-437
 Capstone Project 1
 Alex James
-1L, T, 1Lb
+1L, 1Lb
 
 EEE-448
 Power Transmission and Distribution plants
@@ -228,7 +228,7 @@ Refik Kizilirmak
 EME-253
 Computer Aided Engineering
 Yerkin Abdildin
-1L, T, 1CLb
+1L, 1CLb
 
 EME-254
 Mechanics of Materials
@@ -243,7 +243,7 @@ Evagoras Xydas
 EME-354
 Advanced Control Systems
 Md Ali
-1L, T, 2Lb
+1L, 2Lb
 
 EME-358
 Heat Transfer
@@ -268,17 +268,17 @@ Soo Teh
 EME-413
 Computer Aided Geometric Design
 Konstantinos Kostas
-1L, T, 1Lb
+1L, 1Lb
 
 EME-451
 Capstone project 1
 Christos Spitas
-1L, T, 1CLb
+1L, 1CLb
 
 EME-456
 Feasibility Analysis of Clean Energy Technologies
 Luis Rojas
-1L, T, 1CLb
+1L, 1CLb
 
 EME-463
 Machine Dynamics II
